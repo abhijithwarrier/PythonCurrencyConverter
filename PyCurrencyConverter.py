@@ -9,6 +9,7 @@ from tkinter import ttk
 
 # Making a list of currencies. You can add more items (currencies) to the list
 currencyList = ['AED', 'AUD', 'BHD', 'BRL', 'CAD', 'CNY', 'EUR', 'HKD', 'INR', 'USD']
+#still many yet to come
 
 # Defining CreateWidgets() to create necessary widgets for the GUI
 def CreateWidgets():
@@ -78,7 +79,7 @@ root = tk.Tk()
 # & disabling the resizing property
 root.geometry("400x350")
 root.resizable(False, False)
-root.title("PyCurrenyConverter")
+root.title("Curreny Converter")
 root.config(bg = "darkolivegreen4")
 
 # Creating tkinter variables
